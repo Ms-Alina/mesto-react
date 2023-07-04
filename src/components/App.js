@@ -1,5 +1,4 @@
-//import React from 'react';
-import {useEffect, useState} from 'react';
+import {useState} from 'react';
 
 import Header from './Header';
 import Main from './Main';
@@ -8,14 +7,6 @@ import PopupWithForm from './PopupWithForm';
 import ImagePopup from './ImagePopup';
 
 function App() {
-  // const [isEditProfilePopupOpen, setEditProfileClick] = React.useState(false);
-  // const [isAddPlacePopupOpen, setAddPlaceClick] = React.useState(false);
-  // const [isEditAvatarPopupOpen, setEditAvatarClick] = React.useState(false);
-  // const [selectedCard, setSelectedCard] = React.useState({
-  //   name: '',
-  //   link: '',
-  // });
-
   const [isEditProfilePopupOpen, setEditProfileClick] = useState(false);
   const [isAddPlacePopupOpen, setAddPlaceClick] = useState(false);
   const [isEditAvatarPopupOpen, setEditAvatarClick] = useState(false);

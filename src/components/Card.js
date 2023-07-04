@@ -28,9 +28,7 @@ function Card(props) {
             className={`element__like ${liked && 'element__like_active'}`}
             onClick={likeClick}
           ></div>
-          {/* <div role="button" aria-label="Нравится" className="element__like"></div> */}
           <p className="element__like-sum">{props.likeCounter}</p>
-          {/* <p className="element__like-sum">{props.card.likes.length}</p> */}
         </div>
       </div>
       <div role="button" aria-label="Удалить" className="element__button-trash"></div>

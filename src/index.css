@@ -49,3 +49,5 @@
 @import url(./blocks/element/__like-sum/element__like-sum.css);
 @import url(./blocks/profile/__change-button/profile__change-button.css);
 @import url(./blocks/profile/__img-place/profile__img-place.css);
+
+@import url(./blocks/element/__button-trash/_active/element__button-trash_active.css);
